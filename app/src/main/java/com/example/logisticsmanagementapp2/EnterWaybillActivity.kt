@@ -1,6 +1,5 @@
 package com.example.logisticsmanagementapp2
 
-import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
@@ -57,15 +56,15 @@ class EnterWaybillActivity : AppCompatActivity() {
 
 //        保存按钮
         Savebutton.setOnClickListener {
-            var ArrivalStationData = ArrivalStation.getText().toString()
-            var consignorData = consignor.getText().toString()
-            var consignorPhoneNumberData = consignorPhoneNumber.getText().toString()
-            var consigneeData = consignee.getText().toString()
-            var consigneePhoneNumberData = consigneePhoneNumber.getText().toString()
-            var goodsNameData = goodsName.getText().toString()
-            var numberOfPackagesData = numberOfPackages.getText().toString()
-            var freightPaidByConsignorData = freightPaidByConsignor.getText().toString()
-            var freightPaidByTheReceivingPartyData = freightPaidByTheReceivingParty.getText().toString()
+            val ArrivalStationData = ArrivalStation.getText().toString()
+            val consignorData = consignor.getText().toString()
+            val consignorPhoneNumberData = consignorPhoneNumber.getText().toString()
+            val consigneeData = consignee.getText().toString()
+            val consigneePhoneNumberData = consigneePhoneNumber.getText().toString()
+            val goodsNameData = goodsName.getText().toString()
+            val numberOfPackagesData = numberOfPackages.getText().toString()
+            val freightPaidByConsignorData = freightPaidByConsignor.getText().toString()
+            val freightPaidByTheReceivingPartyData = freightPaidByTheReceivingParty.getText().toString()
             Log.d("EnterWaybillActivity", "consignorData is $consignorData")
 
             val db = dbHelper.writableDatabase
