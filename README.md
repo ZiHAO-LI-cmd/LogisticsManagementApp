@@ -2,14 +2,5 @@
 
 ##### Mobile Development course project of Northeastern University
 
-Demo Video:
-<iframe
-src="https://youtu.be/QCl2RwNtlI0"
-scrolling="no"
-border="0"
-frameborder="no"
-framespacing="0"
-allowfullscreen="True"
-height=1520
-width=720
-</iframe>
+[Demo Video]("https://www.youtube.com/watch?v=QCl2RwNtlI0")
+
